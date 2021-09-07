@@ -6,7 +6,7 @@ permalink: /contracts
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-sm-6 py-3">
-            <img src="{{site.baseurl}}/assets/img/illustrations/document.svg" style="width: 256px" class="p-2">
+            <img src="{{site.baseurl}}/assets/img/illustrations/Document.svg" style="width: 256px" class="p-2">
             <img src="{{site.baseurl}}/assets/img/illustrations/Design.svg" style="width: 256px" class="p-2">
         </div>
         <div class="col-12 col-sm-6 py-3">

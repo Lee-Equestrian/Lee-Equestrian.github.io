@@ -19,7 +19,7 @@ The placement of an order for design and/or any other services offered by Pink D
 </div>
 
 <div class="col-6 py-3" id="privacy">
-<img src="{{site.baseurl}}/assets/img/illustrations/security.svg" style="width: 256px" class="p-2">
+<img src="{{site.baseurl}}/assets/img/illustrations/Security.svg" style="width: 256px" class="p-2">
 </div>
 <div class="col-6 py-3">
 <h3>Privacy: We don't sell your data</h3>
