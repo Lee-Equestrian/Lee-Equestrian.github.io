@@ -1,0 +1,62 @@
+---
+# Meta Data
+layout: horse
+order: 3
+title:  "WKM Beamer"
+meta: "This is the meta description!"
+date:   2021-09-01 15:40:55 -0500
+categories: horses geldings sale performance
+permalink: /wkm-beamer/ #This is the link that shows in the URL
+
+# Horse Information
+jumpHeight: "1.6m"
+colour: "Grey"
+jumpingIndex: "100"
+price: "Contact for Price"
+dateOfBirth: "2014"
+breed: "Canadian Warmblood"
+registered: "CWHBA"
+breeder: "WKM Stables Ltd"
+breeder_url: "https://www.wkmstables.com/"
+height: "16.3h"
+location: "Winnipeg, MB, Canada"
+sex: "Gelding"
+# Pedigree
+horsetelex_url: "https://www.horsetelex.com/horses/pedigree/1904795/beamer"
+pedigree-text: "Many great show jumpers can be found in Beamer’s pedigree including: Carthago Z, Quidam de Revel, Darco, and Voltaire."
+pedigree:
+    dam: 
+        name: "WKM ROYAL"
+        dam:
+            name: "WKM SILKE"
+            sire: "DOUBLE CREAM XX"
+            dam: "UNKNOWN"
+        sire: 
+            name: "NICKELSON B"
+            sire: "CONCORDE"
+            dam: "FRADIAVOLA B"
+    sire: 
+        name: "CAT WEASEL Z"
+        dam: 
+            name: "AIDA DE LAUBRY"
+            sire: "QUIDAM DE REVEL"
+            dam: "UGANDA DE LAUBRY"
+        sire:
+            name: "CARTHAGO"
+            sire: "CAPITOL I"
+            dam: "PERRA"
+# Media
+gallery_folder: "/beamer/gallery"
+pedigree_folder: "/beamer/pedigree"
+thumb_folder: "/beamer/thumbs"
+card-img: "/assets/img/horses/beamer/card.jpg"
+headshot-img: "/assets/img/horses/beamer/headshot.jpg"
+hero-img: "/assets/img/horses/beamer/hero.jpg"
+video:
+    youtube:
+        links: ['youtube.com/watch?v=7vL02v3Cc10','youtube.com/watch?v=iQrQrCm5Jbo','youtube.com/watch?v=fL9mM4v32r0']
+---
+
+Who loves dapples? This flashy guy is sure to turn heads in the show ring! WKM Beamer is a tall, athletic horse with a modern build and has an ‘in your pocket’ type of personality. Beamer is consistently impressing us with his scope and bravery over fences. He recently started his show career. Beamer is likely more suited for the jumper ring, but with potential for hunters as well. He would be best matched with an experienced junior or amateur rider.
+
+X-rays from 2019 can be made available to serious buyers.

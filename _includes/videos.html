@@ -1,0 +1,27 @@
+{% assign vsize = page.video.youtube.links | size %}
+{% if vsize == 0 %}
+<div class="col-12 py-3 text-center">
+<h1> Videos </h1>
+<hr>
+<p>There are currently no uploaded videos at this time.</p>
+</div>
+{% else %}
+<div class="col-12 py-3 text-center">
+    <h1> Videos </h1>
+    <hr>
+    {% for link in page.video.youtube.links %}
+        <!-- Youtube Thumbnail Builder -->
+            {% assign pre_url = 'http://i3.ytimg.com/vi/' %}
+            <!-- Grabs the youtube url, and only grabs the video code from it -->
+            {% assign video_code = link | remove_first: 'youtube.com/watch?v=' %}
+            <!--[youtube.com/watch?v=] -->
+            {% assign post_url = '/hqdefault.jpg' %}
+        {% assign thumb_link = pre_url | append: video_code | append: post_url %}
+        <a style="text-decoration: none;" data-fancybox href="{{ link }}">
+            <img class="p-1" style="border-radius: 24px; max-height: 18rem;" src="{{ thumb_link }}" alt="video">
+            </a>
+            {% endfor %}
+    
+</div>
+<hr>
+{% endif %}

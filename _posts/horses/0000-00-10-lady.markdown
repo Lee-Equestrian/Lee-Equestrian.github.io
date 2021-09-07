@@ -1,0 +1,64 @@
+---
+# Meta Data
+layout: horse
+order: 8
+title:  "Bluff Creek's Divine Finale"
+meta: "This is the meta description!"
+date:   2021-09-01 15:40:55 -0500
+categories: horses sale mares performance
+
+permalink: /bc-devine-finale/ #This is the link that shows in the URL
+
+
+# Horse Information
+jumpHeight: "1.6m"
+colour: "Silver Dapple Pinto"
+jumpingIndex: "100"
+price: "Contact for Price"
+dateOfBirth: "2018"
+breed: "American Miniature Horse"
+registered: ""
+breeder: "Bluff Creek Miniatures"
+breeder_url: "https://www.bluffcreekminiatures.com/"
+height: "16.3h"
+location: "Winnipeg, MB, Canada"
+sex: "Filly"
+
+# Pedigree
+horsetelex_url: "https://www.horsetelex.com/horses/pedigree/2114118/palladian"
+pedigree-text: "Many great show jumpers can be found in Pal's pedigree including: Utopie, Vision, Ramiro Z and Clinton"
+pedigree:
+    dam: 
+        name: ""
+        dam:
+            name: ""
+            sire: ""
+            dam: ""
+        sire: 
+            name: ""
+            sire: ""
+            dam: ""
+    sire: 
+        name: ""
+        dam: 
+            name: ""
+            sire: ""
+            dam: ""
+        sire:
+            name: ""
+            sire: ""
+            dam: ""
+
+# Media
+gallery_folder: "/lady/gallery"
+pedigree_folder: "/lady/pedigree"
+thumb_folder: "/lady/thumbs"
+card-img: "/assets/img/horses/lady/card.jpg"
+headshot-img: "/assets/img/horses/lady/headshot.jpg"
+hero-img: "/assets/img/horses/lady/hero.jpg"
+video:
+    youtube:
+        #Remove everything before youtube (https:// etc)
+        links: []
+---
+Lady Description

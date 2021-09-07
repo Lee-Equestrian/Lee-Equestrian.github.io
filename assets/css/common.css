@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;900&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+span.line {
+    display: inline-block;
+  }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flag-icon {
+    text-decoration: none;
+}
+
+#hero {
+  height: 40vh;
+  background-size: cover;
+  position: relative;
+  background-position: center top;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.7);
+}
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+  text-decoration: none;
+}
+  
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+
+.single-cta i {
+  color: #666877;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  color: #757575;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.single-cta a:link {
+    text-decoration: none;
+    color: #757575;
+}
+
+.single-cta a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.instagram-bg{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+}
+.youtube-bg{
+  background: #FF0000;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #666877;
+}
+.footer-widget ul li {
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #666877;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #666877;
+    padding: 13px 20px;
+    border: 1px solid #666877;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #666877;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #666877;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+.heart {
+    color: rgb(240, 77, 104);
+}
+
+.canada {
+    color: white;
+}
+
+.about img {
+    border-radius: 2%;
+}
+
+.overlay-div{
+    background-color:#000;
+    opacity:.7;
+ }
+
+.card{
+    width: 290px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #333;
+    color: #ddd;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+
+  .card-personal-name {
+    text-align: left;
+  }
+  
+  
+  .card-personal-header{
+    width: 100%;
+    height: 430px;
+    display: block;
+    background: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .card-personal-header ul {
+    list-style-type: none; 
+    text-align: left;
+  }
+  
+  .card-personal-header::before{
+  content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 2;  
+    background: rgba(19, 15, 64,0.7);
+    display: block;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .card-personal-header:hover::before {
+    transition: 1s;
+    background: rgba(19, 15, 64, 0.0);
+  }
+  
+   .card .card-personal-add{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 16px;
+    right: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #121217;
+    border-radius: 4px;
+  }
+  
+  .card .card-personal-add svg{
+    width: 20px;
+    height: 20px;
+    transition: 0.3s linear;
+      stroke: #ddd;
+  }
+  .card .card-personal-add:hover svg{
+   stroke: rgba(104, 109, 224,1.0);
+  }
+  
+  .card-personal-header > *{
+    position: relative;
+    z-index: 100;
+  }
+  
+  .card-personal-header h1{
+    font-size: 52px;
+  }
+  
+  .card-personal-link{
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .card-personal-link:hover{
+    text-decoration: underline #121217;
+  }
+  .card a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .card-personal-description{
+  margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.4rem;
+    font-weight: 700;
+    opacity: 0.7
+  }
+  
+  .card-personal-info{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .card-personal-info a{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    background: #121217;
+    transition: 0.3s linear;
+  }
+  
+  .card-personal-info a:hover{
+    background: #090911;
+    color: #ddd;
+  }
+  
+  .card a, .card p, .card h1{ 
+    font-family: sans-serif;
+  }
+  
+  .card a span{
+    color: rgba(104, 109, 224,1.0);
+    margin-right: 4px;
+  }
+  
+  
+  .card-personal-info a:hover span{
+    color: #ddd;
+  }
+

@@ -1,0 +1,84 @@
+<div class="container py-5">
+    <br/>
+    <div class="row bloc-horse text-center" id="horse-pedigree">
+      <div class="bloc-title"> 
+          <h2 class="bloc-horse"> Pedigree</h2>
+          <p class="py-1">{{page.pedigree-text}}</p>
+          <a href="{{page.horsetelex_url}}" class="py-3 btn btn-light mx-auto" target="_blank">View Full Horsetelex Pedigree</a>      
+    <hr>
+      <div class="row py-1">
+          <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi" id="part1">{{page.pedigree.sire.sire.sire}}</div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi lign" id="part2">{{page.pedigree.sire.sire.name}}</div>
+          <div class="col-sm-4 pedi"></div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi" id="part3">{{page.pedigree.sire.sire.dam}}</div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi lign" id="part4">{{page.pedigree.sire.name}}</div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi" id="part5">{{page.pedigree.sire.dam.sire}}</div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi lign" id="part6">{{page.pedigree.sire.dam.name}}</div>
+          <div class="col-sm-4 pedi"></div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"> </div>
+          <div class="col-sm-4 pedi"> </div>
+          <div class="col-sm-4 pedi" id="part7">{{page.pedigree.sire.dam.dam}}</div>
+        </div>
+        <hr>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi" id="part8">{{page.pedigree.dam.sire.sire}}</div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi lign" id="part9">{{page.pedigree.dam.sire.name}}</div>
+          <div class="col-sm-4 pedi"></div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi" id="part10">{{page.pedigree.dam.sire.dam}}</div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi lign" id="part11">{{page.pedigree.dam.name}}</div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi" id="part12">{{page.pedigree.dam.dam.sire}}</div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi lign" id="part13">{{page.pedigree.dam.dam.name}}</div>
+          <div class="col-sm-4 pedi"></div>
+        </div>
+        <div class="row pedibox">
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi"></div>
+          <div class="col-sm-4 pedi" id="part14">{{page.pedigree.dam.dam.dam}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>

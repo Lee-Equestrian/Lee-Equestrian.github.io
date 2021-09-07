@@ -1,0 +1,27 @@
+website:
+  title: "Jamie Lee Equestrian Acquisitions & Mergers"
+  company: "Jamie Lee Equestrian"
+  tagline: "Canadian, Dutch, and Belgian Warmbloods"
+  corporation: "Jamie Lee Enterprises"
+  url_display: "leeequestrian.com"
+
+contact:
+  tel: "+12042238652" #for telcode mobile clickable links
+  tel_display: "+1 (204) 223-8652"
+  email: "contact@leeequestrian.com"
+  mail: "PO Box 22XXYYZZ"
+
+location:
+  street_address: "1268 McCreary Rd"
+  locality: "Winnipeg"
+  region: "Manitoba"
+  country: "Canada"
+
+social:
+  facebook: "https://www.facebook.com/JamieLeeEquestrian"
+  youtube: "https://www.youtube.com/JamieLeeEquestrian"
+  instagram: "https://www.instagram.com/JamieLeeEquestrian"
+
+footer:
+  copy: "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet."
+  form: "Don’t miss out on any questions you might have regarding Canadas best Belgian Warmblood collection. Use our Contact Form or enter your e-mail address below and we'll contact you as soon as possible."

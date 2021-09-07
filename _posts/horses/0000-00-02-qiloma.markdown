@@ -1,0 +1,60 @@
+---
+# Meta Data
+layout: horse
+order: 2
+title:  "Qiloma"
+meta: "This is the meta description!"
+date:   2021-09-01 15:40:55 -0500
+categories: horses mares performance
+permalink: /qiloma/ #This is the link that shows in the URL
+
+# Horse Information
+jumpHeight: "1.6m"
+colour: "Bay"
+jumpingIndex: "100"
+price: ""
+dateOfBirth: "2016"
+breed: "Belgian Warmblood"
+registered: "BWP/NAD"
+breeder: "WKM Stables Ltd"
+breeder_url: "https://www.wkmstables.com/"
+height: "16.3h"
+location: "Winnipeg, MB, Canada"
+sex: "Mare"
+# Pedigree
+horsetelex_url: "https://www.horsetelex.com/horses/pedigree/1891204/qiloma"
+pedigree-text: "Many great show jumpers can be found in Qiloma's pedigree including:"
+pedigree:
+    dam: 
+        name: "WILOMA III"
+        dam:
+            name: "SILOMA"
+            sire: "ZEUS"
+            dam: "FILOMA"
+        sire: 
+            name: "KARANDASJ"
+            sire: "FEDOR"
+            dam: "CORRIE"
+    sire: 
+        name: "LORD ADONIS"
+        dam: 
+            name: "ROYALTY"
+            sire: "RAPHAEL"
+            dam: "PARADE"
+        sire:
+            name: "LORDANOS"
+            sire: "LANDOS"
+            dam: "W-ASHLEY"
+
+# Media
+gallery_folder: "/qiloma/gallery"
+pedigree_folder: "/qiloma/pedigree"
+thumb_folder: "/qiloma/thumbs"
+card-img: "/assets/img/horses/qiloma/card.jpg"
+headshot-img: "/assets/img/horses/qiloma/headshot.jpg"
+hero-img: "/assets/img/horses/qiloma/hero.jpg"
+video:
+    youtube:
+        links: ['youtube.com/watch?v=x9FbC7Q62_4']
+---
+Qiloma description

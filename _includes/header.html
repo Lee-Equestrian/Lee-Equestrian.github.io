@@ -1,0 +1,40 @@
+<div class="container">
+    <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center text-center">
+            <div class="col-12">
+                <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/jle_brand_black.svg" alt="logo"></a>
+            </div>
+        </div>
+      <div class="row flex-nowrap justify-content-between align-items-center text-center">
+        <div class="col-4 pt-1">
+        </div>
+        <div class="col-4">
+          <a class="blog-header-logo text-dark " href="{{site.baseurl}}/">{{site.data.settings.website.title}}</a>
+          <div class="py-2">
+          <a href="#" title="English" data-bs-toggle="modal" data-bs-target="#englishModal" class="flag-icon flag-icon-ca py-1" alt="Canada Flag"></a>
+          <a href="#" title="French" data-bs-toggle="modal" data-bs-target="#frenchModal" class="flag-icon flag-icon-be py-1" alt="Belgian Flag"></a>
+          {% include language-modals.html %}
+        </div>
+        </div>
+        <div class="col-4">
+        </div>
+      </div>
+    </header>
+  
+    <div class="nav-scroller py-1 mb-2">
+      <nav class="nav d-flex justify-content-between">
+        <a class="p-2 link-secondary" href="{{site.baseurl}}/">{{site.data.navigation.nav-item-1.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-2.url}}">{{site.data.navigation.nav-item-2.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-3.url}}">{{site.data.navigation.nav-item-3.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-4.url}}">{{site.data.navigation.nav-item-4.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-5.url}}">{{site.data.navigation.nav-item-5.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-6.url}}">{{site.data.navigation.nav-item-6.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-7.url}}">{{site.data.navigation.nav-item-7.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-8.url}}">{{site.data.navigation.nav-item-8.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-9.url}}">{{site.data.navigation.nav-item-9.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-10.url}}">{{site.data.navigation.nav-item-10.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-11.url}}">{{site.data.navigation.nav-item-11.title}}</a>
+        <a class="p-2 link-secondary" href="{{site.baseurl}}{{site.data.navigation.nav-item-12.url}}">{{site.data.navigation.nav-item-12.title}}</a>
+      </nav>
+    </div>
+  </div>

@@ -1,0 +1,63 @@
+---
+# Meta Data
+layout: horse
+order: 1
+title:  "Rave On OBF"
+meta: "This is the meta description!"
+date:   2021-09-01 15:40:55 -0500
+categories: horses geldings performance
+permalink: /rave-on-obf/ #This is the link that shows in the URL
+
+
+# Horse Information
+jumpHeight: "1.6m"
+colour: "Grey"
+jumpingIndex: "100"
+price: ""
+dateOfBirth: "2017"
+breed: "Belgian Warmblood"
+registered: "BWP/NAD"
+breeder: "Old Bull Farms"
+breeder_url: "https://www.facebook.com/OldBullFarms/"
+height: "16.3h"
+location: "Winnipeg, MB, Canada"
+sex: "Gelding"
+
+# Pedigree
+horsetelex_url: "https://www.horsetelex.com/horses/pedigree/1939495/rave-on"
+pedigree-text: "Many great show jumpers can be found in Rave On's pedigree including:"
+pedigree:
+    dam: 
+        name: "CARMEN"
+        dam:
+            name: "EVITA"
+            sire: "HEARTBREAKER"
+            dam: "B-EMME"
+        sire: 
+            name: "CLINTON"
+            sire: "CORRADO I"
+            dam: "URTE"
+    sire: 
+        name: "EMERALD VAN 'T RUYTERSHOF"
+        dam: 
+            name: "CARTHINA Z"
+            sire: "CARTHAGO"
+            dam: "TANAGRA 'S' VAN HET DAROHOF"
+        sire:
+            name: "DIAMANT DE SEMILLY"
+            sire: "LE TOT DE SEMILLY"
+            dam: "VENISE DES CRESLES"
+# Media
+gallery_folder: "/raveon/gallery"
+pedigree_folder: "/raveon/pedigree"
+thumb_folder: "/raveon/thumbs"
+card-img: "/assets/img/horses/raveon/card.jpg"
+headshot-img: "/assets/img/horses/raveon/headshot.jpg"
+hero-img: "/assets/img/horses/raveon/hero.jpg"
+video:
+    youtube:
+        #Remove everything before youtube (https:// etc)
+        links: [] 
+
+---
+Raveon description

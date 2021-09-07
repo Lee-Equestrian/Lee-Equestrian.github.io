@@ -1,0 +1,64 @@
+---
+# Meta Data
+layout: horse
+order: 7
+title:  "Zibbe S"
+meta: "This is the meta description!"
+date:   2021-09-01 15:40:55 -0500
+categories: horses performance retired sale
+
+permalink: /zibbe/ #This is the link that shows in the URL
+
+
+# Horse Information
+jumpHeight: "1.6m"
+colour: "Brown"
+jumpingIndex: "100"
+price: "Contact For Price"
+dateOfBirth: "2004"
+breed: "Dutch Warmblood"
+registered: "KWPN-VB"
+breeder: "Boulder Ridge Ranch"
+breeder_url: "https://boulderridgeranch.com/"
+height: "17.1h"
+location: "Winnipeg, MB, Canada"
+sex: "Mare"
+
+# Pedigree
+horsetelex_url: "https://www.horsetelex.com/horses/pedigree/1808989/zibbe-s"
+pedigree-text: "Many great show jumpers can be found in Pal's pedigree including: "
+pedigree:
+    dam: 
+        name: "OORNELL"
+        dam:
+            name: "LADY"
+            sire: "CONCORDE"
+            dam: "HARON"
+        sire: 
+            name: "ZEUS"
+            sire: "ARLEQUIN X"
+            dam: "URIELLE"
+    sire: 
+        name: "ODERMUS R"
+        dam: 
+            name: "DWERMIE"
+            sire: "RAMIRO Z"
+            dam: "WERMIE"
+        sire:
+            name: "CALIDO I"
+            sire: "CANTUS"
+            dam: "BARONESS"
+
+# Media
+gallery_folder: "/zibbe/gallery"
+pedigree_folder: "/zibbe/pedigree"
+thumb_folder: "/zibbe/thumbs"
+card-img: "/assets/img/horses/zibbe/card.jpg"
+headshot-img: "/assets/img/horses/zibbe/headshot.jpg"
+hero-img: "/assets/img/horses/zibbe/hero.jpg"
+video:
+    youtube:
+        #Remove everything before youtube (https:// etc)
+        links: []
+---
+Zibbe description

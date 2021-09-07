@@ -1,0 +1,38 @@
+<div class="container p-3">
+  <div class="row justify-content-center">
+    <!-- for loop -->
+    {% for horse in site.categories.sale %}
+    <!-- Card Container -->
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 py-2 mx-auto ">
+      <div class="card d-block mx-auto">
+        <header class="card-personal-header" style="background: url('{{site.baseurl}}{{horse.card-img}}');">
+          <h4 class="card-personal-name">{{horse.title}}</h4>
+          <p class="card-personal-description" style="text-align: left;">
+            {% assign horse-pedigree = {{horse.pedigree.sire.name}} | append: " + " | append: {{horse.pedigree.dam.sire.name}} %}
+            {{horse-pedigree}}
+          </p>
+          <p class="card-personal-name">
+            <a href="{{site.baseurl}}/contact" class="btn btn-secondary bg-light text-dark" style="border: 0">{{horse.price}}</a>
+            
+          </p>
+        </header>
+        <section class="card-personal-info">
+          <a href="{{site.baseurl}}{{horse.url}}">Visit Page</a>
+          <a href="{{site.baseurl}}{{horse.url}}#pictures">View Pictures</a>
+        </section>
+      </div>
+    </div>
+    <!-- Card Container -->    
+    {% else %}
+    <div class="row text-center">
+    <div class="col">
+    <h1>Sorry!</h1>
+    <p><strong></strong></p>
+    <p>We currently do not have any horses publicly for sale.</p>
+    <img src="{{site.baseurl}}/assets/img/illustrations/faq.svg" style="width: 256px">
+    </div>
+    </div>
+    {% endfor %}
+    <!-- End for loop -->
+  </div>
+</div>
