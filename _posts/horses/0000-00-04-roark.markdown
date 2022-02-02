@@ -7,7 +7,7 @@ meta: "This is the meta description!"
 date:   2021-09-01 15:40:55 -0500
 categories: horses stallions performance
 
-permalink: /son-et-lumiere-obf/ #This is the link that shows in the URL
+permalink: / #This is the link that shows in the URL
 
 
 # Horse Information
@@ -21,8 +21,8 @@ breed: "Belgian Warmblood"
 registered: "BWP/NAD"
 breeder: "Old Bull Farms"
 breeder_url: "https://www.facebook.com/OldBullFarms/"
-height: "16.3h"
-location: "Winnipeg, MB, Canada"
+height: "165 cm"
+location: "Manitoba, Canada"
 sex: "Stallion"
 
 # Pedigree
@@ -56,10 +56,23 @@ pedigree_folder: "/roark/pedigree"
 thumb_folder: "/roark/thumbs"
 card-img: "/assets/img/horses/roark/card.jpg"
 headshot-img: "/assets/img/horses/roark/headshot.jpg"
-hero-img: "/assets/img/horses/roark/hero.jpg"
+hero-img: "/assets/img/horses/roark/hero.png"
 video:
     youtube:
         #Remove everything before youtube (https:// etc)
-        links: ['youtube.com/watch?v=1wACgG9-Uro','youtube.com/watch?v=7i5vR9uKx7g']
+        links: ['youtube.com/watch?v=DhP0L5dWFtI','youtube.com/watch?v=M3QVeWKVT-E', 'youtube.com/watch?v=CcEcfaTgB0k']
 ---
-Roark description
+<h2 class="blog-header-logo text-dark text-center"> A Complete Jumper for the Future </h2>
+<br>
+
+Son et Lumiere OBF is a beautiful young stallion by Emerald van't Ruytershof, out of Evita OBF (by Heartbreaker). He has a modern and uphill build and moves with a balanced, ground covering stride. He is remarkably easy to handle both on and off the ground due to his intelligence and easygoing nature; he is simple enough for an amateur rider to handle. He has shown great potential in his loose jumping so far with both his technique and scope, and has impressed us after seeing his first few jumps with a rider.
+
+Son et Lumiere OBF was presented to Belgian Warmblood in 2021 as a three year old, where he achieved a great score of 83 for overall impression and 87 for his loose jumping. Judge Boudewijn Schepers described him as a "complete jumper for the future". We expect that Son et Lumiere OBF will pass on his modern build, easy disposition, large stride, and scope to his offspring. His first offspring are expected in the spring of 2022.
+
+The success story of his sire, Emerald and his rider Harrie Smolders, started in 2010, when they became reserve champions at the World Championship for young horses in Zangersheide; Emerald was 6 at the time. This was followed by countless victories at the highest level, with wins in 2013 in the Nations Cup in both Aachen and Gijon, in 2015 they won the Nations Cup in Falsterbo and the World Cup leg in Washington. In the World Cup final in Gothenburg of 2016 they were 2nd, after which they participated in the Olympic Games in Rio and won the Nations Cup in Rotterdam. In 2017 they won in the Chantilly GP, and 2nd place in the Versailles GP. The following year they won in the Bordeaux GP and a 2nd place in the Cannes GP. After his brilliant career, Emerald retired at the beginning of 2019, to fully focus from then on breeding. Due to his impressive qualities as a stallion, and his many successful offspring, Emerald is one of the absolute top favorites among breeders.
+
+Various Emerald offspring are now successfully performing at the highest level. His son, Igor, is certainly one of the most striking talents of the moment. Together with Jos Verlooy he won the Gold medal at the European Championships in Rotterdam with the Belgian team in 2019, as well as individual Bronze. They were 2nd in the Longines World Cup in Toronto and was awarded the "Horse Of The Year"award by Landbouwleven after his phenomenal season. Furthermore we also find Ibbo Van't Keldertje, Imerald Van't Voorhof, I'm Special De Muze, Ilias Van't Vlasmeer, Jeunesse Van't Paradijs and Kasper Van't Hellehof and Escape Z in the impressive list of offspring. 
+
+His dam, a rare daughter of Heartbreaker, Evita OBF, has contributed much to the world of show jumping through her offspring over the years. Her first foal, Havana OBF (Escudo I) was the highest scoring mare on the BWP-NA tour in 2010 and went on to compete to 1.35m. Evita is also the dam of Klinton OBF, who was a BWP approved stallion and competed to 1.40m. Evita's daughter Carmen OBF (Clinton) produced another BWP approved stallion Marcus OBF, who has gone on to compete at FEI 5* shows at the 1.50m level. 
+
+Evita's sire, Heartbreaker, was simply one of the greatest jumping sires, ever. Looking at the first two generations of the top 21 jumpers, Heartbreaker appears four times, Cassini I appears twice, Chin Chin and Numero Uno twice. The other remarkable feature of the stallion's career is just how long he dominated the sport. Heartbreaker was originally approved by the BWP studbook and in 2007 Heartbreaker was declared a 'Belgian Ambassador' and not surprisingly given the success of his offspring.

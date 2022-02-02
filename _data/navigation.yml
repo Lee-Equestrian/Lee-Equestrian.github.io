@@ -2,20 +2,20 @@ nav-item-1:
   title: "Home"
   url: "/"
 nav-item-2:
-  title: "Our Farm"
-  url: "/farm"
+  title: "Information"
+  url: "#information"
 nav-item-3:
-  title: "Breeding Program"
-  url: "/breedingprogram"
+  title: "Pictures"
+  url: "#pictures"
 nav-item-4:
-  title: "Sales"
-  url: "/sales"
+  title: "Pedigree"
+  url: "#pedigree"
 nav-item-5:
-  title: "Performance Horses"
-  url: "/performancehorses"
+  title: "Videos"
+  url: "#videos"
 nav-item-6:
-  title: "Prospects"
-  url: "/prospects"
+  title: "Contact"
+  url: "#contact"
 nav-item-7:
   title: "Latest News"
   url: "/news"

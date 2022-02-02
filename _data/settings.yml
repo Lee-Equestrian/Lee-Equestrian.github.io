@@ -1,15 +1,15 @@
 website:
-  title: "Jamie Lee Equestrian Acquisitions & Mergers"
+  title: "Jamie Lee Equestrian Stables & Breedings"
   company: "Jamie Lee Equestrian"
-  tagline: "Canadian, Dutch, and Belgian Warmbloods"
+  tagline: "Canadian & Belgian Warmbloods"
   corporation: "Jamie Lee Enterprises"
   url_display: "leeequestrian.com"
 
 contact:
-  tel: "+12042238652" #for telcode mobile clickable links
-  tel_display: "+1 (204) 223-8652"
+  tel: "+12045002276" #for telcode mobile clickable links
+  tel_display: "+1 (204) 500-2276"
   email: "contact@leeequestrian.com"
-  mail: "PO Box 22XXYYZZ"
+  mail: "Contact for Mailing Address"
 
 location:
   street_address: "1268 McCreary Rd"

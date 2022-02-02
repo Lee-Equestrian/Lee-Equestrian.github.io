@@ -1,19 +1,18 @@
-<footer class="footer-section">
+<footer class="footer-section" id="contact">
     <div class="container">
-        <div class="footer-cta pt-4 pb-4">
+        <div class="footer-cta pt-4 py-4 text-center">
             <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-xl-4 col-md-6 mb-30">
                     <div class="single-cta">
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
                             <h4>Location</h4>
                             <row><li class="fab fa-canadian-maple-leaf canada"><span> {{site.data.settings.location.region}}, {{site.data.settings.location.country}}</span></li></row>
-                            <ul><li class="fas fa-envelope"><span> {{site.data.settings.contact.mail}}</span></li></ul>
-                                
+                            <ul><li class="fas fa-envelope"><span> {{site.data.settings.contact.mail}}</span></li></ul>    
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-xl-4 col-md-6 mb-30">
                     <div class="single-cta">
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
@@ -22,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-xl-4 col-md-6 mb-30">
                     <div class="single-cta">
                         <i class="far fa-envelope-open"></i>
                         <div class="cta-text">
@@ -37,53 +36,12 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
-                        <div class="footer-logo">
-                            <a href="index.html"><img src="{{site.baseurl}}/assets/img/jle_brand.svg" class="img-fluid" alt="logo"></a>
-                        </div>
-                        <div class="footer-text">
-                            <p>{{site.data.settings.footer.copy}}</p>
-                        </div>
-                        <div class="footer-social-icon">
-                            <span>Follow us</span>
-                            <a href="{{site.data.settings.social.facebook}}"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                            <a href="{{site.data.settings.social.youtube}}"><i class="fab fa-youtube youtube-bg"></i></a>
-                            <a href="{{site.data.settings.social.instagram}}"><i class="fab fa-instagram instagram-bg"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Useful Links</h3>
-                        </div>
-                        <ul>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-1.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-1.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-2.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-2.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-3.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-3.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-4.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-4.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-5.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-5.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-6.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-6.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-7.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-7.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-8.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-8.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-9.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-9.title}}</a></li>
-                            <li><a href="{{site.baseurl}}{{site.data.navigation.nav-item-10.url}}">{{site.baseurl}}{{site.data.navigation.nav-item-10.title}}</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Contact Form</h3>
-                        </div>
-                        <div class="footer-text mb-25">
-                            <p>{{site.data.settings.footer.form}}</p>
-                        </div>
-                        <div class="subscribe-form">
-                            <form action="#">
-                                <input type="text" placeholder="Email Address">
-                                <button><i class="fab fa-telegram-plane"></i></button>
-                            </form>
-                        </div>
+            <div class="footer-social-icon">
+            <a href="{{site.data.settings.social.facebook}}"><i class="fab fa-facebook-f facebook-bg"></i></a>
+            <a href="{{site.data.settings.social.youtube}}"><i class="fab fa-youtube youtube-bg"></i></a>
+            <a href="{{site.data.settings.social.instagram}}"><i class="fab fa-instagram instagram-bg"></i></a>
+        </div>
+
                     </div>
                 </div>
             </div>
@@ -96,17 +54,6 @@
                 <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                     <div class="copyright-text">
                         <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script>, All Right Reserved {{site.data.settings.website.corporation}} + Made with <span class="heart">♥</span> by Joël Forest</a></p>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="{{site.baseurl}}/">Home</a></li>
-                            <li><a href="{{site.baseurl}}/terms#terms">Terms</a></li>
-                            <li><a href="{{site.baseurl}}/terms#privacy">Privacy</a></li>
-                            <li><a href="{{site.baseurl}}/terms#policies">Policy</a></li>
-                            <li><a href="{{site.baseurl}}/contact">Contact</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>

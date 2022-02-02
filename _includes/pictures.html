@@ -1,18 +1,13 @@
-<div class="col-12 text-center">
-    <h1> Pictures </h1>
-    <hr>
     <!-- Horse Loop -->
-    <h4> {{page.title}}</h4>
     {% for image in site.static_files %}
         {% if image.path contains {{page.gallery_folder}} %}
-        <a href="{{ site.baseurl }}{{ image.path }}" data-fancybox="gallery" data-caption="{{page.title}}"> <img class="p-1" style="max-height: 12rem; border-radius:12px;" src="{{ site.baseurl }}{{ image.path }}" alt="image" title="{{page.title}}"></a>
+        <a href="{{ site.baseurl }}{{ image.path }}" data-fancybox="gallery" data-caption="{{page.title}}"> <img class="p-1" style="max-height: 7rem; border-radius:12px;" src="{{ site.baseurl }}{{ image.path }}" alt="image" title="{{page.title}}"></a>
         {% endif %}
     {% endfor %}
 
     {% for image in site.static_files %}
         {% if image.path contains {{page.pedigree_folder}} %}
         <a href="{{ site.baseurl }}{{ image.path }}" data-fancybox="gallery" data-caption="{{image.name}}" title=>   
-        <img class="p-1" style="max-height: 12rem; border-radius:12px;" src="{{ site.baseurl }}{{ image.path }}" alt="image" title="yeet"></a>        </a>
+        <img class="p-1" style="max-height: 12rem; border-radius:12px;" src="{{ site.baseurl }}{{ image.path }}" alt="image"></a>
         {% endif %}
     {% endfor %}
-</div>

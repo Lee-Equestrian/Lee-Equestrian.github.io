@@ -1,0 +1,110 @@
+<div class="container py-5">
+    <br/>
+    <div class="row bloc-horse text-center" id="horse-pedigree">
+      <div class="bloc-title"> 
+          <h2 class="bloc-horse blog-header-logo"> Pedigree</h2>
+          <p class="py-1">{{page.pedigree-text}}</p>
+          <a href="{{page.horsetelex_url}}" class="py-3 btn btn-light mx-auto" target="_blank">View Full Horsetelex Pedigree</a>
+      </div>
+</div>     
+<div class="container p-3">
+    <div class="row">
+        <!-- Sire Line -->
+        <div class="col-6">
+        <h2 class="blog-header-logo text-center">Sire</h2>
+        <hr>
+        <div class="row" style="height: 250px"> <!-- Bloodlines Wrapper-->
+            <div class="col"> <!-- Gen 1-->
+                <div class="row align-items-center border h-100">
+                <div class="col text-center">
+                    {{page.pedigree.sire.name}}
+                </div>
+                </div>
+            </div>
+            <div class="col" style="max-height: 250px;"> <!-- Gen 2-->
+                <div class="row mx-1 mb-2 text-center align-items-center border" style="height:48.5%"> <!-- Sire 2G-->
+                    <div class="col text-center">
+                        {{page.pedigree.sire.sire.name}}
+                    </div>
+                </div>
+                <div class="row mx-1 mt-1 text-center align-items-center border" style="height:48.5%"> <!-- Dam 2G-->
+                    <div class="col text-center">
+                        {{page.pedigree.sire.dam.name}}
+                    </div>
+                </div>
+            </div>
+            <div class="col"> <!-- Gen 3 -->
+                <div class="row mx-1 text-center align-items-center border" style="height:24.5%" > <!-- Sire 3G-->
+                    <div class="col text-center">
+                        {{page.pedigree.sire.sire.sire}}
+                    </div>
+                </div>
+                <div class="row mx-1 mt-1 align-items-center border"style="height:23.5%"> <!-- Dam 3G-->
+                    <div class="col text-center">
+                        {{page.pedigree.sire.sire.dam}}
+                    </div>
+                </div>
+                <div class="row mx-1 mt-1 align-items-center border"style="height:24.5%"> <!-- Sire 3G-->
+                    <div class="col text-center">
+                        {{page.pedigree.sire.dam.sire}}
+                    </div>
+                </div>
+                <div class="row mx-1 mt-1 align-items-center border"style="height:23.5%"> <!-- Dam 3G-->
+                    <div class="col text-center">
+                        {{page.pedigree.sire.dam.dam}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Dam Line -->
+        <div class="col-6">
+            <h2 class="blog-header-logo text-center">Dam</h2>
+            <hr>
+            <div class="row" style="height: 250px"> <!-- Bloodlines Wrapper-->
+                <div class="col"> <!-- Gen 1-->
+                    <div class="row align-items-center border h-100">
+                    <div class="col text-center">
+                        {{page.pedigree.dam.name}}
+                    </div>
+                    </div>
+                </div>
+                <div class="col" style="max-height: 250px;"> <!-- Gen 2-->
+                    <div class="row mx-1 mb-2 text-center align-items-center border" style="height:48.5%"> <!-- Sire 2G-->
+                        <div class="col text-center">
+                            {{page.pedigree.dam.sire.name}}
+                        </div>
+                    </div>
+                    <div class="row mx-1 mt-1 text-center align-items-center border" style="height:48.5%"> <!-- Dam 2G-->
+                        <div class="col text-center">
+                            {{page.pedigree.dam.dam.name}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Gen 3 -->
+                    <div class="row mx-1 text-center align-items-center border" style="height:24.5%" > <!-- Sire 3G-->
+                        <div class="col text-center">
+                            {{page.pedigree.dam.sire.sire}}
+                        </div>
+                    </div>
+                    <div class="row mx-1 mt-1 align-items-center border"style="height:23.5%"> <!-- Dam 3G-->
+                        <div class="col text-center">
+                            {{page.pedigree.dam.sire.dam}}
+                        </div>
+                    </div>
+                    <div class="row mx-1 mt-1 align-items-center border"style="height:24.5%"> <!-- Sire 3G-->
+                        <div class="col text-center">
+                            {{page.pedigree.dam.dam.sire}}
+                        </div>
+                    </div>
+                    <div class="row mx-1 mt-1 align-items-center border"style="height:23.5%"> <!-- Dam 3G-->
+                        <div class="col text-center">
+                            {{page.pedigree.dam.dam.dam}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>

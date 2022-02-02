@@ -3,75 +3,70 @@ layout: default
 title: Horse
 ---
     <div class="container">
-    <section id="hero" class="rounded d-flex flex-row justify-content-center py-3" style="background: url('{{site.baseurl}}{{page.hero-img}}') top left no-repeat;">
-            <div class="container">
-                <h1>{{page.title}}</h1>
+            <div class="row bg-light">
+                <div class="col-6 col-sm-6">
+                <h1 class="blog-header-logo">{{page.title}}</h1>
                 <p><strong>
                 {% assign horse-pedigree = page.pedigree.sire.name | append: " & " | append: page.pedigree.dam.sire.name %}
                 {{horse-pedigree}}</strong></p>
-            </div>
-    </section>
-    </div>
-    <div class="container">
-    <div class="row py-3">
-        <div class="col-12 col-sm-3 py-2">
-            <img src="{{site.baseurl}}{{page.headshot-img}}" class="img-fluid rounded" style="max-height: 18rem;">
-        </div>
-        <div class="col-12 col-sm-3">
-            <div class="text-md-left text-left">
-            <h2>About</h2>
-            <ul style="list-style-type: none;">
-                <li>Date of Birth: {{page.dateOfBirth}}</li>
-                <li>Breed: {{page.breed}}</li>
-                <li>Registered: {{page.registered}}</li>
-                <li>Breeder: <a style="color: inherit;" href="{{page.breeder_url}}" style="text-decoration: none;">{{page.breeder}}</a></li>
-                <!-- If price is not written, Not for Sale -->
-                {% if page.price == "" %}
-                <li>Price: Not For Sale</li>
-                 <!-- If price is written, write it out and link to Contact Form -->
-                {% elsif page.price != nil %}
-                <li>Price: <a href="#contact" style="color: inherit;">{{page.price}}</a></li>
-                {% endif %}
                 
-                {% if page.stud_fee %}
-                    {% if page.stud_fee != nil %}
-                        <li>Stud Fee: <a href="#contact" style="color: inherit;">{{page.stud_fee}}</a></li>
-                    {% endif %}
-                {% endif %}
-
-                <li>Sex: {{page.sex}}</li>
-                <li>Colour: {{page.colour}}</li>
-                <li>Height: {{page.height}}</li>
-                <li>Location: {{page.location}}</li>
-            </ul>
+                    <div class="text-md-left text-left">
+                    <ul style="list-style-type: none;">
+                        <li>Date of Birth: {{page.dateOfBirth}}</li>
+                        <li>Breed: {{page.breed}}</li>
+                        <li>Registered: {{page.registered}}</li>
+                        <li>Breeder: <a style="color: inherit;" href="{{page.breeder_url}}" style="text-decoration: none;">{{page.breeder}}</a></li>
+                        <!-- If price is not written, Not for Sale -->
+                        {% if page.price == "" %}
+                        <li>Price: Not For Sale</li>
+                         <!-- If price is written, write it out and link to Contact Form -->
+                        {% elsif page.price != nil %}
+                        <li>Price: <a href="#contact" style="color: inherit;">{{page.price}}</a></li>
+                        {% endif %}
+                        
+                        {% if page.stud_fee %}
+                            {% if page.stud_fee != nil %}
+                                <li>Stud Fee: <a href="#contact" style="color: inherit;">{{page.stud_fee}}</a></li>
+                            {% endif %}
+                        {% endif %}
+        
+                        <li>Sex: {{page.sex}}</li>
+                        <li>Colour: {{page.colour}}</li>
+                        <li>Height: {{page.height}}</li>
+                        <li>Location: {{page.location}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <img class="img-responsive" style="max-height: 360px" src="/assets/img/horses/roark/hero.png"
             </div>
         </div>
-        
+                
+            
+    </div>
+    
+    <div class="container">
+        <hr>
+    <div class="row py-3">
+        <div class="col-6 col-md-6" id="pictures">
+            <h4>Pictures</h4>
+            {% include pictures.html %}
+    </div>
+        <div class="col-6 col-md-6" id="videos">
+            <h4>Videos</h4>
+                {% include videos.html %}
+        </div>
+        <br><br>
+        <hr>
 
-        <div class="col-12 col-sm-6">
-            <h2> Detailed Information </h2>
+        <div class="col-12 col-sm-12" id="information">
             {{content}}
         </div>
-
-
-        <div class="row py-3 bg-light" id="pictures">
-            {% include pictures.html %}
-        </div>
-        
-        <div class="row py-3">
-            {% include pedigree.html %}
-        </div>
-        
-        <div class="row py-3 bg-light">
-            {% include videos.html %}
-        </div>
-
-        <div class="row py-3" id="contact">
-            <div class="col-12 text-center">
-                <h1> CONTACT FOR MORE INFORMATION </h1>
-                <hr>
-            </div>
+        <div class="row" id="pedigree">
+           {% include pedigree.html %}
+          
         </div>
     </div>
+</div>
 </div>
 </div>

@@ -1,0 +1,3 @@
+Horse Page
+----------
++ Mouse hover over hero image to fade to full color image.

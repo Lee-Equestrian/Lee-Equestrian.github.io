@@ -14,7 +14,7 @@ permalink: /performancehorses
         <header class="card-personal-header" style="background: url('{{site.baseurl}}{{horse.card-img}}');">
           <h4 class="card-personal-name">{{horse.title}}</h4>
           <p class="card-personal-description">
-            {% assign horse-pedigree = {{horse.pedigree.sire.name}} | append: " + " | append: {{horse.pedigree.dam.sire.name}} %}
+            {% assign horse-pedigree = horse.pedigree.sire.name | append: " + " | append: horse.pedigree.dam.sire.name %}
             {{horse-pedigree}}      
           </p>
         </header>

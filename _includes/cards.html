@@ -4,7 +4,7 @@
     {% assign horse_order = site.categories.horses | sort: 'order' %}
     {% for horse in horse_order limit: 4 %}
     <!-- Card Container -->
-    <div class="col-12 col-md-6 col-lg-4 col-xl-3 py-2 mx-auto ">
+    <div class="col-12 col-md-6 col-lg-2 col-xl-3 py-2">
       <div class="card d-block mx-auto" style="border: 0;">
         <header class="card-personal-header" style="background: url('{{site.baseurl}}{{horse.card-img}}');">
           <h4 class="card-personal-name">{{horse.title}}</h4>
