@@ -17,11 +17,8 @@ ul {
     text-decoration: none;
 }
 
-#hero {
-  height: 64vh;
-  background-size: cover;
-  position: relative;
-  background-position: center top;
+.hero {
+  background-image: url("/assets/img/horses/roark/hero.png");
 }
 
 .blog-header {
@@ -382,17 +379,3 @@ ul {
   .card-personal-info a:hover span{
     color: #ddd;
   }
-
-  .video {
-    position: relative;
-  }
-
-  .video img {
-    position: absolute;
-    display: block;
-    background: url("assets/img/play-button.png");
-    height: 40px;
-    width: 40px;
-    top: 20px;
-    left: 20px;
- }
