@@ -3,19 +3,13 @@ website:
   company: "JL Equestrian"
   tagline: "Belgian Warmbloods"
   corporation: "Jamie Lee Enterprises"
-  url_display: "leeequestrian.com"
+  url_display: "jlequestrian.ca"
 
 contact:
   tel: "+12045002276" #for telcode mobile clickable links
   tel_display: "+1 (204) 500-2276"
-  email: "contact@leeequestrian.com"
+  email: "contact@jlequestrian.ca"
   mail: "Contact for Mailing Address"
-
-location:
-  street_address: "1268 McCreary Rd"
-  locality: "Winnipeg"
-  region: "Manitoba"
-  country: "Canada"
 
 social:
   facebook: "https://www.facebook.com/JamieLeeEquestrian"
