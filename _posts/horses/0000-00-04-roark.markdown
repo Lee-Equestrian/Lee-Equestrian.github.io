@@ -60,7 +60,12 @@ hero-img: "/assets/img/horses/roark/hero.png"
 video:
     youtube:
         #Remove everything before youtube (https:// etc)
-        links: ['youtube.com/watch?v=DhP0L5dWFtI','youtube.com/watch?v=M3QVeWKVT-E', 'youtube.com/watch?v=CcEcfaTgB0k']
+        links: [
+            'youtube.com/watch?v=7qOotKEEwgQ',
+            'youtube.com/watch?v=tG2BslKxbL0',
+            'youtube.com/watch?v=Q1PDfjJjrVY',
+            'youtube.com/watch?v=C4l3xPmHDIY'
+            ]
 ---
 <h2 class="blog-header-logo text-dark text-center"> A Complete Jumper for the Future </h2>
 <br>
