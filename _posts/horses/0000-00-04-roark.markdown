@@ -61,6 +61,7 @@ video:
     youtube:
         #Remove everything before youtube (https:// etc)
         links: [
+            'youtube.com/watch?v=dajWdmXL-O4',
             'youtube.com/watch?v=7qOotKEEwgQ',
             'youtube.com/watch?v=tG2BslKxbL0',
             'youtube.com/watch?v=Q1PDfjJjrVY',
